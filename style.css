@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+nav{
+    background: #0082e6;
+    height: 85px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: fixed;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 85px;
+    padding: 0 90px;
+    font-family:'Pacifico';
+    letter-spacing: 2px;
+}
+nav ul{
+    float: right;
+    margin-right: 90px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 85px;
+    margin: 0 20px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active,body nav ul li a:hover{
+    background: #1b9bff;
+    transition: .3s;
+}
+.banner-area{
+    background-image: url(images/home.jpg);
+    background-size: cover;
+    background-position: center center;
+    top: 85px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+.banner-area h2 a{
+    background: #1b9bff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display:inline-table;
+    border-radius: 9px;
+    text-align: center;
+    justify-content: center;
+}
+.banner-area:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #130f40;
+    opacity: .3;
+    z-index: -1;
+
+}
+.banner-area h2{
+    padding-top: 25%;
+    font-size: 40px;
+    color: white;
+}
+.banner-area-portfolio{
+    background-image: url(images/portfolio.jpg);
+    background-size: cover;
+    background-position: center center;
+    top: 85px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+.banner-area-portfolio:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #130f40;
+    opacity: .7;
+    z-index: -1;
+
+}
+.banner-area-portfolio h2{
+    padding-top: 25%;
+    font-size: 40px;
+    color: white;
+    
+}
+.banner-area-portfolio h2 a{
+    background: #1b9bff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display:inline-table;
+    border-radius: 9px;
+    text-align: center;
+    justify-content: center;
+}
+.content-area h1,h2,h3,h4,h5,h6,p{
+    text-align: center; 
+    text-decoration: none;
+}
+
+a.email:hover, a.tweet:hover{
+    color: lightskyblue;
+}
+
+.content-area{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    top: 1080px;
+    background: #fff;
+}
+.content-area h2{
+    font-size: 35px;
+    margin: 0;
+    padding-top: 30px;
+    letter-spacing: 2px;
+    background: #BBDEFB;
+    color:#0082e6;
+}
+.content-area h3{
+    background: #BBDEFB;
+}
+.content-area p{
+    font-size: 15px;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background: #BBDEFB;
+}
+.lnk:hover{
+    color: lightskyblue;
+}
+hr{
+    color: lightskyblue
+}
+.mypic{
+   text-align: center;
+   background-color: #BBDEFB;
+}
